@@ -9,7 +9,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El SOGCS, trabaja sobre el aseguramiento de la calidad, el sistema general de riesgos laborales y los prestadores de servicios de salud. Todos ellos en pro de usuario, y en prestar un servicio de calidad en cualquiera de los regímenes: contributivo, subsidiado o de excepción.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

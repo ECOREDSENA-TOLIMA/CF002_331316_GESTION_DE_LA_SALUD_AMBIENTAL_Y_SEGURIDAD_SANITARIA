@@ -23,7 +23,7 @@
           figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img-2.svg', alt='Texto que describa la imagen')
         .col-lg-8
-          p Este servicio de atención al usuario también, hace parte de los servicios que presta las Empresas Promotoras de Salud (EPS) y las Instituciones Prestadoras de Servicios de Salud (IPS), ya sean públicas, privadas o mixtas; el cual es ofrecido a los afiliados y a los vinculados al Sistema General de Seguridad Social en Salud, mediante una oficina que dispone de una ventanilla de atención al usuario general, una ventanilla preferencial (cuando no se disponga de esta se debe contar con una fila o prestación preferencial para el adulto mayor, mujeres embarazadas, personas con discapacidad y personas con niños menores).
+          p Este servicio de atención al usuario, también hace parte de los servicios que prestan las Empresas Promotoras de Salud (EPS) y las Instituciones Prestadoras de Servicios de Salud (IPS), ya sean públicas, privadas o mixtas; el cual es ofrecido a los afiliados y a los vinculados al Sistema General de Seguridad Social en Salud, mediante una oficina que dispone de una ventanilla de atención al usuario general, una ventanilla preferencial (cuando no se disponga de esta se debe contar con una fila o prestación preferencial para el adulto mayor, mujeres embarazadas, personas con discapacidad y personas con niños menores).
 
     p Además, se contemplan otros dictámenes como lo indicado en la <strong>Ley 1171 del 2007,</strong> que obliga a las EPS a que, si el usuario es una persona mayor de 62 años y no ha recibido en los puntos destinados para esto, la medicación correspondiente, y debe garantizarse su entrega en un plazo no mayor de 72 horas en el lugar establecido como residencia por el afiliado, salvo si esta es de extrema urgencia a la solicitud por parte de este.
     p.mb-5 La atención al usuario puede establecerse de diferentes maneras, de acuerdo con el canal que se haya escogido; entre los tipos de atención se encuentran:
@@ -43,7 +43,7 @@
         p Refiere a cuando el cliente se pone en contacto con la empresa por cualquier motivo. La empresa, debe estar lista para dar una respuesta oportuna, y, de ser posible, tener herramientas de automatización para dar respuestas simples y acelerar los procesos de atención al cliente.
 
       .tarjeta.color-acento-botones1.p-3(x="59.9%" y="44.5%" numero="+")
-        p Es un recurso tecnológico dispuesto para la atención al cliente. La atención virtual, ofrece diferentes canales -correo electrónico, chat en vivo, redes sociales-- que genera gusto y confianza en la comunicación entre el usuario y la institución.
+        p Es un recurso tecnológico dispuesto para la atención al cliente. La atención virtual, ofrece diferentes canales: correo electrónico, chat en vivo, redes sociales, que generan gusto y confianza en la comunicación entre el usuario y la institución.
 
       .tarjeta.color-acento-botones1.p-3(x="83.8%" y="30.5%" numero="+")
         p Hace parte de la estrategia de servicio al cliente. Exige una serie de reglas o normas de etiqueta para asegurar la satisfacción del cliente. Es simple de implementar, cuidando el tono de voz, la fluidez al hablar, claridad para brindar información, disponibilidad y respuestas ágiles.
@@ -65,7 +65,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/decorador-1.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/decorador-1.png', alt='Texto que describa la imagen')
           
         h2.text-center Trato digno a los usuarios
         ul.lista-ul.mb-3
@@ -83,7 +83,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema2/decorador-2.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/decorador-2.png', alt='Texto que describa la imagen')
           
         h2.text-center Oficina de Atención al Usuario
         ul.lista-ul.mb-3
@@ -337,7 +337,7 @@
               img(src='@/assets/curso/temas/tema2/img-16.png', alt='Texto que describa la imagen')
     
     .row
-      a.anexo.mb-4.movil(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+      a.anexo.mb-4.movil(:href="obtenerLink('/downloads/Infografia-tramitePeticiones.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-pdf.svg")
         .anexo__texto
@@ -387,7 +387,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/decorador-3.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/decorador-3.png', alt='Texto que describa la imagen')
 
           h3.text-center Comunicación interna
           p.text-small Garantiza que todas las personas vinculadas con el prestador del servicio de salud, conozcan el Sogcs, riesgos de exposición, objetivos del sistema y den cumplimiento y mejora continua de este. Recibe sugerencias e información para revisión de procedimientos y programas.
@@ -400,7 +400,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema2/decorador-4.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/decorador-4.png', alt='Texto que describa la imagen')
 
           h3.text-center Comunicación externa
           p.text-small Información sobre servicios de salud prestados, suministrada a personas externas, corresponde con: campañas de salud, cursos de capacitación, consultas, trámites y procesos internos, comunicaciones de emergencia. Lo asume personal de servicio y debe tener un sitio específico para hacerlo.
@@ -469,32 +469,35 @@
       //- text-small se usa para que los títulos sean mas pequeños
       LineaTiempoC.color-acento-botones(text-small)
         .row(titulo="POS Pópuli")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 POS Pópuli
             p Es una herramienta ágil, sencilla y dinámica. Permite a los afiliados del SGSSS consultar, los servicios de salud, las tecnologías para tratamientos, y medicamentos financiados o no con recursos de la unidad de pago por capitación, de forma ágil, sencilla y dinámica.
             p Suministra información de farmacovigilancia, que corresponde a las actividades de detección, evaluación, entendimiento y prevención de eventos adversos o cualquier otro problema relacionado con medicamentos.
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema2/img-23.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-10.col-md-10.col-lg-8 
+              figure
+                img(src='@/assets/curso/temas/tema2/img-23.png', alt='Texto que describa la imagen')
 
         .row(titulo="Portal SISPRO")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Portal SISPRO
             p Mediante esta herramienta, se puede consultar información oficial relacionada con los prestadores de salud que se encuentran habilitados en el REPS. Los servicios y la capacidad instalada de las IPS, por departamento o distrito, y naturaleza jurídica para los siguientes cuatro años, y la gestión de la red pública.
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema2/img-24.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-10.col-md-10.col-lg-8 
+              figure
+                img(src='@/assets/curso/temas/tema2/img-24.png', alt='Texto que describa la imagen')
 
         .row(titulo="Plataforma PISIS")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Plataforma PISIS
             p Esta herramienta es usada para el intercambio de información del Sistema Integral de Información de la Protección Social (SISPRO); esta recibe los archivos y realiza un proceso de validación. 
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema2/img-25.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-10.col-md-10.col-lg-8 
+              figure
+                img(src='@/assets/curso/temas/tema2/img-25.png', alt='Texto que describa la imagen')
 
 
        

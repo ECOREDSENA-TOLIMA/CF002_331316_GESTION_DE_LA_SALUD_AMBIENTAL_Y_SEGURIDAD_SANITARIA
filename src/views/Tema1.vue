@@ -18,7 +18,7 @@
     .row.mb-5
       .col-md-2.mb-0
         figure
-            img(src='@/assets/curso/temas/tema1/img-2.svg', alt='')
+            img(src='@/assets/curso/temas/tema1/img-2.png', alt='')
       .col-md-10
         p El reglamento interno institucional, contiene como mínimo para cada uno de los órganos de gobierno organizacional: los objetivos, las funciones, los procedimientos para su conformación, el régimen de inhabilidades e incompatibilidades de sus miembros, ámbito de decisión; la evaluación del desempeño organizacional y la rendición de cuentas, conforme a la normativa vigente. 
         .tarjeta.tarjeta.p-4(style="background-color:#E6EBFB")
@@ -36,7 +36,10 @@
         h4 Hospital del Sur Empresa Social del Estado
         p Acuerdo 4 del 27 de septiembre de 2000. Subred Integrada de Servicios de Salud Sur Occidente E.S.E. - Hospital del Sur I Nivel Empresa Social del Estado ESE.
         p La Junta Directiva, aprueba el presente acuerdo, con el fin de facilitar el funcionamiento y la gestión directiva.
-        p Lo puede consultar en el siguiente enlace: https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=30265&dt=S
+        p Lo puede consultar en el siguiente enlace:
+        a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=30265&dt=S" target="_blank" type="application/pdf")
+          span Enlace web
+          i.fas.fa-file-code
 
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -45,7 +48,10 @@
         h4 Hospital San Blas II Nivel Empresa Social del Estado
         p Resolución 00187 de 2006. Subred Integrada de Servicios de Salud Centro Oriente E.S.E - Hospital San Blas II Nivel Empresa Social del Estado ESE.
         p Funciones del Comité de Conciliación, con el fin de proteger los intereses de la empresa y el patrimonio público. 
-        p Lo puede consultar en el siguiente enlace: https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=33086&dt=S
+        p Lo puede consultar en el siguiente enlace: 
+        a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=33086&dt=S" target="_blank" type="application/pdf")
+          span Enlace web
+          i.fas.fa-file-code
 
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -53,8 +59,11 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Hospital Pablo Tobón Uribe")
         h4 Hospital Pablo Tobón Uribe
         p Código de buen gobierno hospital Pablo Tobón Uribe. 
-        p El objetivo de éste código es el de compilar los principios y valores éticos de transparencia, con el fin de lograr una gestión integral, eficiente y transparente.
-        p Lo puede consultar en el siguiente enlace: https://www.hptu.org.co/phocadownloadpap/Codigo%20de%20Buen%20Gobierno.pdf 
+        p El objetivo de este código es el de compilar los principios y valores éticos de transparencia, con el fin de lograr una gestión integral, eficiente y transparente.
+        p Lo puede consultar en el siguiente enlace: 
+        a.boton.color-acento-botones(href="https://www.hptu.org.co/phocadownloadpap/Codigo%20de%20Buen%20Gobierno.pdf" target="_blank" type="application/pdf")
+          span Enlace web
+          i.fas.fa-file-code 
      
     p.mb-5 Es importante recalcar que en el marco del Sistema Obligatorio de Garantía de Calidad de Atención en Salud (SOGCS), los cuatro componentes que le conforman, también incluyen instrumentos de gestión que apoyan la organización del servicio prestado incluida la reglamentación institucional; esos cuatro componentes se describen a continuación:
 
@@ -70,7 +79,7 @@
         p Cumple con acciones de inspección, vigilancia y control del contenido, calidad y reporte de la información, estará a cargo de las direcciones departamentales y distritales y de la Superintendencia Nacional de Salud en lo de sus competencias.
 
       .tarjeta.color-acento-botones.p-3(x="50%" y="78%" numero="+")
-        p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamentada su operación por MinSalud e Icontec realiza la acreditación.
+        p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamentada su operación por MinSalud e ICONTEC realiza la acreditación.
       
       .tarjeta.color-acento-botones.p-3(x="76%" y="43%" numero="+")
         p Aquí se encuentra la Lista de chequeo, que es utilizada por los prestadores de los servicios de salud para efectuar de manera continua la evaluación, con el fin de mejorar la calidad de los servicios que prestan.
@@ -86,7 +95,7 @@
     .row.mb-5
       .col-md-2.mb-0
         figure
-            img(src='@/assets/curso/temas/tema1/img-4.svg', alt='')
+            img(src='@/assets/curso/temas/tema1/img-4.png', alt='')
       .col-md-10
         p Por otra parte, existen otros instrumentos que posibilitan una acción de mejora a cargo del prestador del servicio de salud que pueden ser utilizados de manera continua, mediante una lista de chequeo generada por el SOGCS, y el Programa de Auditoría para el Mejoramiento Continuo de Calidad (PAMEC), recogidos mediante un formato de verificación puntos específicos de auditoría que repercuten en la actualización y vigencia de la reglamentación interna de la institución. 
 
@@ -112,7 +121,7 @@
                 td(style="background-color:#F6F6F6") 
                 td(style="background-color:#F6F6F6") 
               tr
-                td(colspan="3")(style="background-color:#F6F6F6") El alcance del mejoramiento continuo de la calidad de la entidad, debe ser explícito y se debe orientar en uno o varios de los siguientes temas: <br><br> 1. Sistema Único de Acreditación. <br><br> 2. Mejoramiento del resultado de los indicadores del Sistema de Información para la Calidad. <br><br> 3. Fortalecimiento de la gestión del riesgo para los procesos misionales. <br><br> 4. Fortalecimiento del Programa de Seguridad del Paciente documentado en la entidad e implementación de las buenas prácticas de seguridad del paciente recomendadas en la Guía Técnica correspondiente. En todo caso, el PAMEC, debe ser superior al cumplimiento de estándares de Habilitación.
+                td(colspan="3")(style="background-color:#F6F6F6") El alcance del mejoramiento continuo de la calidad de la entidad, debe ser explícito y se debe orientar en uno o varios de los siguientes temas: <br><br> 1. Sistema Único de Acreditación. <br><br> 2. Mejoramiento del resultado de los indicadores del Sistema de Información para la Calidad. <br><br> 3. Fortalecimiento de la gestión del riesgo para los procesos misionales. <br><br> 4. Fortalecimiento del Programa de Seguridad del Paciente, documentado en la entidad e implementación de las buenas prácticas de seguridad del paciente recomendadas en la Guía Técnica correspondiente. En todo caso, el PAMEC, debe ser superior al cumplimiento de estándares de Habilitación.
                 td(colspan="3")(style="background-color:#FFFF") Escrito incorporado en el documento PAMEC donde se evidencie el alcance y propósito del mejoramiento de la calidad emprendido por la entidad.
                 td(style="background-color:#F6F6F6")  
                 td(style="background-color:#F6F6F6") 
@@ -298,7 +307,7 @@
     .row.mb-5
       .col-md-2.mb-0
         figure
-            img(src='@/assets/curso/temas/tema1/img-11.svg', alt='')
+            img(src='@/assets/curso/temas/tema1/img-11.png', alt='')
       .col-md-10
         p Se entiende por aseguramiento en salud, la administración del riesgo financiero, la gestión del riesgo en salud, la articulación de los servicios que garantice el acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la representación del afiliado ante el prestador y las demás personas involucradas. 
         p Este aseguramiento se relaciona con los tipos de regímenes utilizados en la afiliación, entendiendo por afiliación como el acto de ingreso al Sistema General de Seguridad Social en Salud, a través del formulario único o del Sistema Transaccional de Afiliación cuando sea implementado y afiliado, es la calidad que adquiere la persona una vez ha realizado afiliación.
@@ -338,12 +347,12 @@
 
         .col-md-6
           h3 Trabajador dependiente
-          p El empleado dependiente cotiza con el 12.5% del salario mensual; el 8.5% está a cargo del empleador y el 4% a cargo del empleado. A nivel de pensión es del 16% del salario mensual: el 12% está a cargo del empleador y el 4% a cargo del empleado.
+          p El empleado dependiente cotiza con el 12.5 % del salario mensual; el 8.5 % está a cargo del empleador y el 4 % a cargo del empleado. A nivel de pensión es del 16 % del salario mensual: el 12 % está a cargo del empleador y el 4 % a cargo del empleado.
 
       .row
         .col-md-6.mb-4.mb-md-0
           h3 Pensionados
-          p Si la persona es pensionada está obligada a cotizar al SGSSS sobre el 12% de su mesada pensional, excepto, si está vinculado por contrato de prestación de servicios o reciba ingresos adicionales a su mesada pensional, es ese caso, deberá aportar en salud la totalidad de la cotización (12.5%).
+          p Si la persona es pensionada está obligada a cotizar al SGSSS sobre el 12 % de su mesada pensional, excepto, si está vinculado por contrato de prestación de servicios o reciba ingresos adicionales a su mesada pensional, es ese caso, deberá aportar en salud la totalidad de la cotización (12.5 %).
         
         .col-md-6
           figure
@@ -356,7 +365,7 @@
 
         .col-md-6
           h3 Trabajador independiente
-          p Paga la totalidad de la cotización; 12.5% del ingreso base de cotización a salud y al 16% a pensión. Si la vinculación es por prestación de servicios, cotiza a salud y pensión, sobre el 40% del valor bruto mensual del contrato, el ingreso no puede ser inferior al SMLMV.
+          p Paga la totalidad de la cotización; 12.5 % del ingreso base de cotización a salud y al 16 % a pensión. Si la vinculación es por prestación de servicios, cotiza a salud y pensión, sobre el 40 % del valor bruto mensual del contrato, el ingreso no puede ser inferior al SMLMV.
 
       .row
         .col-md-6.mb-4.mb-md-0
@@ -420,7 +429,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Sistema General de Pensiones
-            p El Sistema General de Pensiones, el cual fue creado por la Ley 100 de 1993, busca amparar a la población, contra las contingencias derivadas de la vejez, invalidez o muerte, mediante el reconocimiento de una pensión y prestaciones. Este sistema lo conforma el régimen solidario de prima media con prestación definida, y el régimen de ahorro individual con solidaridad. 
+            p El cual fue creado por la Ley 100 de 1993, busca amparar a la población, contra las contingencias derivadas de la vejez, invalidez o muerte, mediante el reconocimiento de una pensión y prestaciones. Este sistema lo conforma el régimen solidario de prima media con prestación definida, y el régimen de ahorro individual con solidaridad. 
           
           .col-md-6
             figure
@@ -433,7 +442,7 @@
 
     .tarjeta.tarjeta.p-4.mb-5(style="background-color:#E6EBFB")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
-        p El servicio de Seguridad y Salud en el Trabajo obliga al cumplimiento de requisitos, de acuerdo con la Resolución 3100 de 2019 del Ministerio de Trabajo y Protección Social, donde:
+        p El servicio de Seguridad y Salud en el Trabajo, obliga al cumplimiento de requisitos, de acuerdo con la Resolución 3100 de 2019 del Ministerio de Trabajo y Protección Social, donde:
         ul.lista-ul
           li 
             i.fas.fa-angle-right

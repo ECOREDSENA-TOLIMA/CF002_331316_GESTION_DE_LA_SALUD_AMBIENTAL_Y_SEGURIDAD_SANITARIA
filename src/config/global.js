@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Atención al usuario y reglamentos institucionales',
     descripcionCurso:
       'El Sistema de Seguridad Social actúa mediante una acción resolutiva a nivel de instituciones y usuarios y así se garantiza el derecho a la salud. Para esto se ayuda del reglamento institucional y el portafolio de servicios que, junto con los principios y normas establecidas para la atención al usuario, direccionan procesos de calidad en la prestación del servicio.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
@@ -301,7 +301,7 @@ export default {
         'Conjunto articulado y armónico de principios y normas; políticas; instituciones; competencias y procedimientos; facultades, obligaciones, derechos y deberes; financiamiento; controles; información y evaluación, que el Estado disponga para la garantía y materialización del derecho fundamental de la salud (Ley 1751 de 2015, artículo 4°).',
     },
     {
-      termino: 'Unidad de Pago por Capitación (UPC).',
+      termino: 'Unidad de Pago por Capitación (UPC)',
       significado:
         'Valor anual que se reconoce por cada uno de los afiliados al sistema general de seguridad social en salud (SGSSS) para cubrir las prestaciones del Plan Obligatorio de Salud (POS), en los regímenes contributivo y subsidiado (Acuerdo 19 de 2010).',
     },
@@ -374,9 +374,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -384,9 +384,36 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Luz Adriana Cárdenas González',
+          cargo: 'Experta Temática',
+          centro: 'Regional Antioquia - Centro de Servicios de Salud',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de Estilo',
+          centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Maria Inés Machado López',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -394,19 +421,39 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Oscar Iván Uribe Ortiz',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard de Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -414,14 +461,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

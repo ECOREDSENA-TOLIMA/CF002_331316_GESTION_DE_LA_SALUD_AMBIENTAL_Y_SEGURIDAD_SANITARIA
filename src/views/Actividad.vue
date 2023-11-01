@@ -10,14 +10,14 @@
             img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-primario
-          h2 La atención del usuario en los servicios de salud
-        p.mb-4 #[b Objetivo] relacionar los aspectos establecidos en cuanto a la reglamentación y normatividad legal en la prestación del servicio de salud y la responsabilidad de los prestadores del servicio para ofrecer una atención de calidad.
+          h2 Atención del usuario en los servicios de salud
+        p.mb-4 #[b Objetivo:] relacionar los aspectos establecidos en cuanto a la reglamentación y normatividad legal en la prestación del servicio de salud y la responsabilidad de los prestadores del servicio para ofrecer una atención de calidad.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Cuestionario
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividad/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
