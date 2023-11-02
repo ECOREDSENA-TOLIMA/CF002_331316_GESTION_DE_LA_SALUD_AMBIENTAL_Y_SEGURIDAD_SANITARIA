@@ -67,22 +67,24 @@
      
     p.mb-5 Es importante recalcar que en el marco del Sistema Obligatorio de Garantía de Calidad de Atención en Salud (SOGCS), los cuatro componentes que le conforman, también incluyen instrumentos de gestión que apoyan la organización del servicio prestado incluida la reglamentación institucional; esos cuatro componentes se describen a continuación:
 
-    ImagenInfografica.color-acento-botones.mb-5.desktop
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema1/img-3-1.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-3
+      .col-8(data-aos="fade-down-right")
+        ImagenInfografica.color-acento-botones.mb-5.desktop
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/img-3-1.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-acento-botones.p-3(x="50%" y="10%" numero="+")
-        p Base de datos de las entidades departamentales y distritales de salud, los prestadores de servicios de salud y las empresas de planes de beneficio, realizan el registro de prestadores de servicios de salud habilitados. El MinSalud la consolida.
+          .tarjeta.color-acento-botones.p-3(x="50%" y="10%" numero="+")
+            p Base de datos de las entidades departamentales y distritales de salud, los prestadores de servicios de salud y las empresas de planes de beneficio, realizan el registro de prestadores de servicios de salud habilitados. El MinSalud la consolida.
 
-      .tarjeta.color-acento-botones.p-3(x="24%" y="45%" numero="+")
-        p Cumple con acciones de inspección, vigilancia y control del contenido, calidad y reporte de la información, estará a cargo de las direcciones departamentales y distritales y de la Superintendencia Nacional de Salud en lo de sus competencias.
+          .tarjeta.color-acento-botones.p-3(x="24%" y="45%" numero="+")
+            p Cumple con acciones de inspección, vigilancia y control del contenido, calidad y reporte de la información, estará a cargo de las direcciones departamentales y distritales y de la Superintendencia Nacional de Salud en lo de sus competencias.
 
-      .tarjeta.color-acento-botones.p-3(x="50%" y="78%" numero="+")
-        p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamentada su operación por MinSalud e ICONTEC realiza la acreditación.
-      
-      .tarjeta.color-acento-botones.p-3(x="76%" y="43%" numero="+")
-        p Aquí se encuentra la Lista de chequeo, que es utilizada por los prestadores de los servicios de salud para efectuar de manera continua la evaluación, con el fin de mejorar la calidad de los servicios que prestan.
+          .tarjeta.color-acento-botones.p-3(x="50%" y="78%" numero="+")
+            p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamentada su operación por MinSalud e ICONTEC realiza la acreditación.
+          
+          .tarjeta.color-acento-botones.p-3(x="76%" y="43%" numero="+")
+            p Aquí se encuentra la Lista de chequeo, que es utilizada por los prestadores de los servicios de salud para efectuar de manera continua la evaluación, con el fin de mejorar la calidad de los servicios que prestan.
 
     .row.mt-5
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
@@ -197,7 +199,7 @@
         p A nivel de instituciones prestadoras de salud y de profesionales del ramo, se encuentran diferentes portafolios de servicios físicos, como son los trípticos o dípticos que se pueden doblar en dos o tres partes; en estos documentos la información se presenta de forma breve y concisa, aunque es importante incluir el reconocimiento que se tiene en el gremio, lo hace aún más relevante para los profesionales independientes que se quieren dar a conocer, mostrando “insignias” de calidad en la prestación del servicio.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-12(data-aos="fade-down-right")
+      .col-10(data-aos="fade-down-right")
         .cajon.color-primario.p-4.mb-4
           p También, se encuentra el portafolio de servicios que hace parte del aplicativo del Registro Especial de Prestadores de Servicios de Salud (REPS), a través del mencionado aplicativo los prestadores de servicio de salud se registran y de esta forma habilitan los servicios de salud, además de actualizar el referido portafolio de servicios. 
 
@@ -209,15 +211,17 @@
       .col-md-3
         figure
           img(src='@/assets/curso/temas/tema1/img-6.svg', alt='Imagen decorativa')
-
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#FCE7E1")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/img-7.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          p Lo invitamos a revisar en el material complementario el <strong>Manual de habilitación y actualización del portafolio y autoevaluación de servicios.</strong>
-          p Este documento informa sobre lineamientos al usuario, y del Acuerdo a la Resolución 3100 de 2019 del Ministerio de Salud y Protección Social
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#FCE7E1")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema1/img-7.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              p Lo invitamos a revisar en el material complementario el <strong>Manual de habilitación y actualización del portafolio y autoevaluación de servicios.</strong>
+              p Este documento informa sobre lineamientos al usuario, y del Acuerdo a la Resolución 3100 de 2019 del Ministerio de Salud y Protección Social
 
     p Por otra parte, existe el portafolio de servicios que es elaborado por los prestadores de servicios de salud y que lo publican en sus respectivas páginas web, en él se describen los servicios que ofrece al usuario. Por lo general lo conforman: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios (vigentes y en desarrollo), proyectos e información de contacto. 
     p.mb-5 A continuación, se presentan a manera de ejemplo tres portafolios de servicios de salud:
@@ -291,13 +295,14 @@
                         a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
                           span Enlace web
                           i.fas.fa-file-code
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        p Por otra parte, existe el portafolio de servicios que es elaborado por los prestadores de servicios de salud y que lo publican en sus respectivas páginas web, en él se describen los servicios que ofrece al usuario. Por lo general lo conforman: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios (vigentes y en desarrollo), proyectos e información de contacto. 
+        p.mb-5 A continuación, se presentan a manera de ejemplo tres portafolios de servicios de salud:
 
-    p Por otra parte, existe el portafolio de servicios que es elaborado por los prestadores de servicios de salud y que lo publican en sus respectivas páginas web, en él se describen los servicios que ofrece al usuario. Por lo general lo conforman: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios (vigentes y en desarrollo), proyectos e información de contacto. 
-    p.mb-5 A continuación, se presentan a manera de ejemplo tres portafolios de servicios de salud:
-
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        p Los referidos niveles de complejidad son tres: alta, media y baja, estos niveles son aplicables a todas las instituciones de salud públicas, por cuanto las instituciones privadas se encuentran exentas de esta obligatoriedad de acuerdo con lo dispuesto en el Decreto 780 de 2016.
+        .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            p Los referidos niveles de complejidad son tres: alta, media y baja, estos niveles son aplicables a todas las instituciones de salud públicas, por cuanto las instituciones privadas se encuentran exentas de esta obligatoriedad de acuerdo con lo dispuesto en el Decreto 780 de 2016.
 
     Separador 
 
@@ -400,47 +405,49 @@
 
     p.mb-5 En lo referente al sistema y servicio en salud, se busca reforzar la atención primaria de salud, avanzando hacia la cobertura sanitaria universal y el acceso universal a la salud, corrientes establecidas por la OMS, que en Colombia se regula mediante los siguientes sistemas:
 
-    ImagenInfograficaB.color-acento-botones.mb-4.desktop
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema1/img-20-1.png', alt='Texto que describa la imagen')
-
-      div(x="56%" y="25%" numero="+")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Sistema General de Riesgos Laborales
-            p Corresponde al conjunto de entidades públicas y privadas, así como las normas y procedimientos tendientes a prevenir, atender y proteger a los trabajadores de los efectos de las enfermedades y los accidentes que puedan ocurrirles con ocasión o como consecuencia del trabajo que desarrollan. 
-
-          .col-md-6
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        ImagenInfograficaB.color-acento-botones.mb-4.desktop
+          template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img-21.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img-20-1.png', alt='Texto que describa la imagen')
 
-      div(x="56%" y="50%" numero="+")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Servicio de Seguridad y Salud en el Trabajo
-            p Se interroga y examina al paciente, para monitorear la exposición a los factores de riesgo laborales, y así determinar las consecuencias en la salud por la exposición al factor de riesgo. Mediante este servicio se hacen valoraciones complementarias apoyadas en evaluaciones médicas, ocupacionales y el diagnóstico. 
-          
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-22.png', alt='Texto que describa la imagen')
+          div(x="56%" y="25%" numero="+")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                h3 Sistema General de Riesgos Laborales
+                p Corresponde al conjunto de entidades públicas y privadas, así como las normas y procedimientos tendientes a prevenir, atender y proteger a los trabajadores de los efectos de las enfermedades y los accidentes que puedan ocurrirles con ocasión o como consecuencia del trabajo que desarrollan. 
 
-      div(x="56%" y="75%" numero="+")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Sistema General de Pensiones
-            p El cual fue creado por la Ley 100 de 1993, busca amparar a la población, contra las contingencias derivadas de la vejez, invalidez o muerte, mediante el reconocimiento de una pensión y prestaciones. Este sistema lo conforma el régimen solidario de prima media con prestación definida, y el régimen de ahorro individual con solidaridad. 
-          
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img-23.png', alt='Texto que describa la imagen')
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema1/img-21.png', alt='Texto que describa la imagen')
+
+          div(x="56%" y="50%" numero="+")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                h3 Servicio de Seguridad y Salud en el Trabajo
+                p Se interroga y examina al paciente, para monitorear la exposición a los factores de riesgo laborales, y así determinar las consecuencias en la salud por la exposición al factor de riesgo. Mediante este servicio se hacen valoraciones complementarias apoyadas en evaluaciones médicas, ocupacionales y el diagnóstico. 
+              
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema1/img-22.png', alt='Texto que describa la imagen')
+
+          div(x="56%" y="75%" numero="+")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                h3 Sistema General de Pensiones
+                p El cual fue creado por la Ley 100 de 1993, busca amparar a la población, contra las contingencias derivadas de la vejez, invalidez o muerte, mediante el reconocimiento de una pensión y prestaciones. Este sistema lo conforma el régimen solidario de prima media con prestación definida, y el régimen de ahorro individual con solidaridad. 
+              
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema1/img-23.png', alt='Texto que describa la imagen')
 
     .row.mt-5
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img-20-2.png', alt='Figura 6 Densidad de siembra de árboles En la figura se observa la distancia de 3 metros entre zurcos de arbustos, igualmente la distancia de 25 - 30 metros entre arboles grandes, en la parte izquierda las imágenes de los árboles casuarina cordia, cedrela, cenizaro, aguacate, cítricos, mango, gliricidia, erytrina, inga; formas de copa estrella o tipo sombrilla.') 
 
-    .tarjeta.tarjeta.p-4.mb-5(style="background-color:#E6EBFB")(data-aos="flip-up")
+    .tarjeta.tarjeta.p-4.mb-3(style="background-color:#E6EBFB")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
         p El servicio de Seguridad y Salud en el Trabajo, obliga al cumplimiento de requisitos, de acuerdo con la Resolución 3100 de 2019 del Ministerio de Trabajo y Protección Social, donde:
         ul.lista-ul
@@ -453,14 +460,16 @@
           li 
             i.fas.fa-angle-right
             | Cumplir con los medicamentos, dispositivos médicos e insumos; procesos prioritarios; historias clínicas y registros.
-
-    .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#FCE7E1")(data-aos="flip-up")
-      .row.justify-content-center.align-items-center 
-        .col-lg-3.mb-3
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/img-7.svg', alt='Texto que describa la imagen')
-        .col-lg-7
-          p Con el fin de ampliar la información sobre riesgos laborales y de seguridad y salud en el trabajo, se hace le invita a consultar el material complementario sobre <strong>Riesgos laborales / salud y ámbito laboral</strong> del Ministerios de Salud y Protección Social.
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10(data-aos="fade-down-right")
+        .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#FCE7E1")(data-aos="flip-up")
+          .row.justify-content-center.align-items-center 
+            .col-lg-3.mb-3
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/temas/tema1/img-7.svg', alt='Texto que describa la imagen')
+            .col-lg-7
+              p Con el fin de ampliar la información sobre riesgos laborales y de seguridad y salud en el trabajo, se hace le invita a consultar el material complementario sobre <strong>Riesgos laborales / salud y ámbito laboral</strong> del Ministerios de Salud y Protección Social.
 
 
 
