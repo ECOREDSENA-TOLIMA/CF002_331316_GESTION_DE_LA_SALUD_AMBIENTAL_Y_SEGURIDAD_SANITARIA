@@ -248,7 +248,7 @@
                         .titulo-segundo.color-acento-contenido
                           h3 Baja complejidad
                         p.mb-4 Subred Integrada de Servicios de Salud Centro Oriente E.S.S. <br>El portafolio lo puede consultar en el siguiente enlace:
-                        a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                        a.boton.color-acento-botones(href="https://www.subredcentrooriente.gov.co/?q=content/portafolio-subred-centro-oriente" target="_blank" type="application/pdf")
                           span Enlace web
                           i.fas.fa-file-code
 
@@ -270,7 +270,7 @@
                         .titulo-segundo.color-acento-contenido
                           h3 Media complejidad
                         p.mb-4 Hospital Universitario de La Samaritana <br>El portafolio lo puede consultar en el siguiente enlace:
-                        a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                        a.boton.color-acento-botones(href="https://www.hus.org.co/recursos_user//2022/Mercadeo/PORTAFOLIO%20HUS%202022.pdf" target="_blank" type="application/pdf")
                           span Enlace web
                           i.fas.fa-file-code
             
@@ -292,9 +292,10 @@
                         .titulo-segundo.color-acento-contenido
                           h3 Alta complejidad
                         p.mb-4 Hospital Pablo Tobón Uribe. Portafolio de Servicios Habilitados. <br>El portafolio lo puede consultar en el siguiente enlace:
-                        a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                        a.boton.color-acento-botones(href="https://www.hptu.org.co/phocadownloadpap/indicadores/estructura/Servicios%20habilitados2017.pdf" target="_blank" type="application/pdf")
                           span Enlace web
                           i.fas.fa-file-code
+
     .row.justify-content-center.align-items-center.mb-3
       .col-10(data-aos="fade-down-right")
         p Por otra parte, existe el portafolio de servicios que es elaborado por los prestadores de servicios de salud y que lo publican en sus respectivas páginas web, en él se describen los servicios que ofrece al usuario. Por lo general lo conforman: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios (vigentes y en desarrollo), proyectos e información de contacto. 
@@ -445,7 +446,7 @@
     .row.mt-5
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema1/img-20-2.png', alt='Figura 6 Densidad de siembra de árboles En la figura se observa la distancia de 3 metros entre zurcos de arbustos, igualmente la distancia de 25 - 30 metros entre arboles grandes, en la parte izquierda las imágenes de los árboles casuarina cordia, cedrela, cenizaro, aguacate, cítricos, mango, gliricidia, erytrina, inga; formas de copa estrella o tipo sombrilla.') 
+          img(src='@/assets/curso/temas/tema1/img-20-2.png', alt='Texto que describa la imagen') 
 
     .tarjeta.tarjeta.p-4.mb-3(style="background-color:#E6EBFB")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 

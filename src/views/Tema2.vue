@@ -471,7 +471,7 @@
     p Actualmente se cuentan con algunas herramientas efectivas para llevar a cabo un proceso comunicante más eficaz. Por lo general las empresas, entidades e instituciones, en el desarrollo de sus actividades hacen uso de estos instrumentos, los cuales se ofrecen a través de sus páginas web.
     p.mb-5 El Ministerio de Salud y Protección Social, en su página web ofrece algunas herramientas de comunicación, que buscan informar a los usuarios del Sistema General de Seguridad Social (SGSSS), sobre afiliaciones a los regímenes contributivo y subsidiado, medicamentos, tratamientos, etc. A continuación, se podrán consultar las características generales de algunos de estos instrumentos.
 
-    .BGIMG01.p-4
+    .BGIMG01.p-4.mb-5
       PasosB.color-acento-contenido
         .row(titulo="POS Pópuli")
           .col-md-6.mb-4.mb-md-0.col-ipad
