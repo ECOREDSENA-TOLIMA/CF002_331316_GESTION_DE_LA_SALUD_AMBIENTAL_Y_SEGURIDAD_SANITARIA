@@ -18,7 +18,10 @@
 
     p.mb-5 Por ello, se invita a ver el siguiente video en donde se encontrará información general del componente formativo relacionado con la atención al usuario y los reglamentos institucionales que lo regulan.
 
-
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_O9jR9NCIG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
 
 
 
