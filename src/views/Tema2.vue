@@ -42,15 +42,15 @@
             p También conocida como atención dinámica; es un tipo de servicio al cliente que una compañía brinda al ponerse en contacto con los consumidores sin que ellos esperen. Este servicio al cliente es usado para presentar productos o servicios nuevos, o recomendar beneficios y ofertas.
 
           .tarjeta.color-acento-botones1.p-3(x="42%" y="64%" numero="+")
-            p Refiere a cuando el cliente se pone en contacto con la empresa por cualquier motivo. La empresa, debe estar lista para dar una respuesta oportuna, y, de ser posible, tener herramientas de automatización para dar respuestas simples y acelerar los procesos de atención al cliente.
+            p Refiere a cuando el cliente se pone en contacto con la empresa por cualquier motivo. La empresa debe estar lista para dar una respuesta oportuna y, de ser posible, tener herramientas de automatización para dar respuestas simples y acelerar los procesos de atención al cliente.
 
           .tarjeta.color-acento-botones1.p-3(x="59.9%" y="44.5%" numero="+")
-            p Es un recurso tecnológico dispuesto para la atención al cliente. La atención virtual, ofrece diferentes canales: correo electrónico, chat en vivo, redes sociales, que generan gusto y confianza en la comunicación entre el usuario y la institución.
+            p Es un recurso tecnológico dispuesto para la atención al cliente. La atención virtual ofrece diferentes canales: correo electrónico, chat en vivo, redes sociales, que generan gusto y confianza en la comunicación entre el usuario y la institución.
 
           .tarjeta.color-acento-botones1.p-3(x="83.8%" y="30.5%" numero="+")
             p Hace parte de la estrategia de servicio al cliente. Exige una serie de reglas o normas de etiqueta para asegurar la satisfacción del cliente. Es simple de implementar, cuidando el tono de voz, la fluidez al hablar, claridad para brindar información, disponibilidad y respuestas ágiles.
         
-    p.mb-5 En los procesos de atención al usuario debe tenerse cuidado con la protección que se hace de este usuario, es así como la Superintendencia Nacional de Salud ha dispuesto instrucciones precisas para los prestadores de servicios de salud, mediante la <strong>Circular Externa 049 de 2008</strong>, en donde se establecen acciones puntuales, tal como se explican a continuación.
+    p.mb-5 En los procesos de atención al usuario debe tenerse cuidado con la protección que se hace de este usuario, es así como la Superintendencia Nacional de Salud ha dispuesto instrucciones precisas para los prestadores de servicios de salud, mediante la <strong>Circular Externa 049 de 2008</strong>, en donde se establecen acciones puntuales, tal como se explican a continuación:
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -130,7 +130,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 h3 Derecho de petición de interés particular
-                p Solicitud que una persona hace ante una autoridad para , con el fin de que se resuelva determinado interrogante, inquietud o situación jurídica que sólo solo le interesa a él o a su entorno.
+                p Solicitud que una persona hace ante una autoridad para con el fin de que se resuelva determinado interrogante, inquietud o situación jurídica que sólo solo le interesa a él o a su entorno.
                 p Debe resolverse dentro de los 15 días siguientes a su recepción, y  registrarse en el sistema.
 
               .col-md-6
@@ -196,7 +196,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 h3 Solicitud de acceso a la información
-                p Facultad que tiene la ciudadanía de solicitar y obtener acceso a la información sobre las actualizaciones derivadas del cumplimiento de las funciones atribuidas, solicitud de registros, informes, datos o documentos producidos o en posesión control o custodia de una entidad.
+                p Facultad que tiene la ciudadanía de solicitar y obtener acceso a la información sobre las actualizaciones derivadas del cumplimiento de las funciones atribuidas, solicitud de registros, informes, datos o documentos producidos o en posesión, control o custodia de una entidad.
                 p Debe resolverse dentro de los 10 días siguientes a su recepción, y  registrarse en el sistema.
               
               .col-md-6
@@ -207,7 +207,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 h3 Solicitud de copias
-                p Reproducción y entrega de documentos que no sean de reserva al interior de una entidad como expedientes misionales, jurisdiccionales o administrativos. SI la información esta archivada electrónicamente, y el solicitante lo acepte se entregará por este medio, CD, DVD u otro formato. Si el volumen de copias es significativo podrán expedirse a costas del solicitante según valor institucional.
+                p Reproducción y entrega de documentos que no sean de reserva al interior de una entidad como expedientes misionales, jurisdiccionales o administrativos. Si la información está archivada electrónicamente, y el solicitante lo acepte se entregará por este medio, CD, DVD u otro formato. Si el volumen de copias es significativo, podrán expedirse a costas del solicitante según valor institucional.
                 p Debe resolverse dentro de los 10 días siguientes a su recepción y registrarse en el sistema.
 
               .col-md-6
@@ -492,7 +492,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-24.png', alt='Texto que describa la imagen')
 
-        .row(titulo="(1990 - 1992)")
+        .row(titulo="Plataforma PISIS")
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6.col-ipad           
               h3 Plataforma PISIS

@@ -13,7 +13,7 @@
       .col-7
         p El reglamento interno institucional tiene como propósito resolver aspectos organizacionales al interior del servicio que ofrece el prestador de salud. En tal sentido, este, lo primero que tiene que hacer es organizar a los miembros que le constituyen como empresa, asignando de forma clara las responsabilidades que le competen a cada uno. 
         p Es decir, qué herramientas, como el reglamento interno de las instituciones, junto con el portafolio de servicios deben ser los apoyos administrativos en la gestión propia del servicio de prestación de salud con miras a facilitar el proceso para los usuarios y personas involucradas. 
-        p El sector salud en el marco de la reglamentación del servicio de salud ha creado normas, instituciones, mecanismos, procesos y requisitos, mediante los cuales se han desarrollado instrumentos que apoyan a la gestión administrativa, y uno de ellos es el reglamento interno institucional que es un instrumento de gestión que regula la organización y el funcionamiento integral de las entidades o instituciones sean estas públicas, privadas o mixtas. Este documento, por lo general, se conforma de las tareas y las responsabilidades de todos los integrantes y comunica los derechos de cada uno de ellos. Además, mediante las respectivas páginas web las empresas o entidades publican sus reglamentos internos que pueden ser consultados por el público en general. 
+        p El sector salud en el marco de la reglamentación del servicio de salud, ha creado normas, instituciones, mecanismos, procesos y requisitos, mediante los cuales se han desarrollado instrumentos que apoyan a la gestión administrativa, y uno de ellos es el reglamento interno institucional, que es un instrumento de gestión que regula la organización y el funcionamiento integral de las entidades o instituciones sean estas públicas, privadas o mixtas. Este documento, por lo general, se conforma de las tareas y las responsabilidades de todos los integrantes y comunica los derechos de cada uno de ellos. Además, mediante las respectivas páginas web las empresas o entidades publican sus reglamentos internos que pueden ser consultados por el público en general. 
     
     .row.mb-5
       .col-md-2.mb-0
@@ -35,7 +35,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Hospital del Sur")
         h4 Hospital del Sur Empresa Social del Estado
         p Acuerdo 4 del 27 de septiembre de 2000. Subred Integrada de Servicios de Salud Sur Occidente E.S.E. - Hospital del Sur I Nivel Empresa Social del Estado ESE.
-        p La Junta Directiva, aprueba el presente acuerdo, con el fin de facilitar el funcionamiento y la gestión directiva.
+        p La Junta Directiva aprueba el presente acuerdo, con el fin de facilitar el funcionamiento y la gestión directiva.
         p Lo puede consultar en el siguiente enlace:
         a.boton.color-acento-botones(href="https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=30265&dt=S" target="_blank" type="application/pdf")
           span Enlace web
@@ -65,7 +65,7 @@
           span Enlace web
           i.fas.fa-file-code 
      
-    p.mb-5 Es importante recalcar que en el marco del Sistema Obligatorio de Garantía de Calidad de Atención en Salud (SOGCS), los cuatro componentes que le conforman, también incluyen instrumentos de gestión que apoyan la organización del servicio prestado incluida la reglamentación institucional; esos cuatro componentes se describen a continuación:
+    p.mb-5 Es importante recalcar que en el marco del Sistema Obligatorio de Garantía de Calidad de Atención en Salud (SOGCS), los cuatro componentes que le conforman, también incluyen instrumentos de gestión que apoyan la organización del servicio prestado incluida, la reglamentación institucional; esos cuatro componentes se describen a continuación:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-8(data-aos="fade-down-right")
@@ -81,8 +81,8 @@
             p Cumple con acciones de inspección, vigilancia y control del contenido, calidad y reporte de la información, estará a cargo de las direcciones departamentales y distritales y de la Superintendencia Nacional de Salud en lo de sus competencias.
 
           .tarjeta.color-acento-botones.p-3(x="50%" y="78%" numero="+")
-            p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamentada su operación por MinSalud e ICONTEC realiza la acreditación.
-          
+            p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamenta su operación el MinSalud e Icontec realiza la acreditación. 
+            
           .tarjeta.color-acento-botones.p-3(x="76%" y="43%" numero="+")
             p Aquí se encuentra la Lista de chequeo, que es utilizada por los prestadores de los servicios de salud para efectuar de manera continua la evaluación, con el fin de mejorar la calidad de los servicios que prestan.
 
@@ -123,7 +123,7 @@
                 td(style="background-color:#F6F6F6") 
                 td(style="background-color:#F6F6F6") 
               tr
-                td(colspan="3")(style="background-color:#F6F6F6") El alcance del mejoramiento continuo de la calidad de la entidad, debe ser explícito y se debe orientar en uno o varios de los siguientes temas: <br><br> 1. Sistema Único de Acreditación. <br><br> 2. Mejoramiento del resultado de los indicadores del Sistema de Información para la Calidad. <br><br> 3. Fortalecimiento de la gestión del riesgo para los procesos misionales. <br><br> 4. Fortalecimiento del Programa de Seguridad del Paciente, documentado en la entidad e implementación de las buenas prácticas de seguridad del paciente recomendadas en la Guía Técnica correspondiente. En todo caso, el PAMEC, debe ser superior al cumplimiento de estándares de Habilitación.
+                td(colspan="3")(style="background-color:#F6F6F6") El alcance del mejoramiento continuo de la calidad de la entidad, debe ser explícito y se debe orientar en uno o varios de los siguientes temas: <br><br> 1. Sistema Único de Acreditación. <br><br> 2. Mejoramiento del resultado de los indicadores del Sistema de Información para la Calidad. <br><br> 3. Fortalecimiento de la gestión del riesgo para los procesos misionales. <br><br> 4. Fortalecimiento del Programa de Seguridad del Paciente documentado en la entidad e implementación de las buenas prácticas de seguridad del paciente recomendadas en la Guía Técnica correspondiente. En todo caso, el PAMEC, debe ser superior al cumplimiento de estándares de Habilitación.
                 td(colspan="3")(style="background-color:#FFFF") Escrito incorporado en el documento PAMEC donde se evidencie el alcance y propósito del mejoramiento de la calidad emprendido por la entidad.
                 td(style="background-color:#F6F6F6")  
                 td(style="background-color:#F6F6F6") 
@@ -195,8 +195,8 @@
         img(src='@/assets/curso/temas/tema1/img-5.png')
       .col-8
         p Un portafolio de servicios es un documento preparado por una empresa, organización o individuo, dirigido a proveedores y/o usuarios que contiene información detallada respecto a los servicios que ofrece, además de limitar en tiempo, modo y lugar aquellos servicios que por su naturaleza, disponibilidad o capacidad no puede brindar.
-        p Se espera encontrar en el portafolio de servicios, los datos básicos del oferente como nombre, años de trayectoria, socios, objetivos y valores misionales, además de una breve reseña de proveedores, clientes e información de contacto entre otros puntos. Todo esto, ya que recordemos que estos portafolios sirven como tarjeta de presentación para dar a conocer la empresa u organización y pueden ser de tipo físico o digital.
-        p A nivel de instituciones prestadoras de salud y de profesionales del ramo, se encuentran diferentes portafolios de servicios físicos, como son los trípticos o dípticos que se pueden doblar en dos o tres partes; en estos documentos la información se presenta de forma breve y concisa, aunque es importante incluir el reconocimiento que se tiene en el gremio, lo hace aún más relevante para los profesionales independientes que se quieren dar a conocer, mostrando “insignias” de calidad en la prestación del servicio.
+        p Se espera encontrar en el portafolio de servicios, los datos básicos del oferente como nombre, años de trayectoria, socios, objetivos y valores misionales, además de una breve reseña de proveedores, clientes e información de contacto, entre otros puntos. Todo esto, ya que recordemos que estos portafolios sirven como tarjeta de presentación para dar a conocer la empresa u organización y pueden ser de tipo físico o digital.
+        p A nivel de instituciones prestadoras de salud y de profesionales del ramo, se encuentran diferentes portafolios de servicios físicos, como son los trípticos o dípticos, que se pueden doblar en dos o tres partes; en estos documentos la información se presenta de forma breve y concisa, aunque es importante incluir el reconocimiento que se tiene en el gremio, lo hace aún más relevante para los profesionales independientes que se quieren dar a conocer, mostrando “insignias” de calidad en la prestación del servicio.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-10(data-aos="fade-down-right")
@@ -298,8 +298,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-10(data-aos="fade-down-right")
-        p Por otra parte, existe el portafolio de servicios que es elaborado por los prestadores de servicios de salud y que lo publican en sus respectivas páginas web, en él se describen los servicios que ofrece al usuario. Por lo general lo conforman: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios (vigentes y en desarrollo), proyectos e información de contacto. 
-        p.mb-5 A continuación, se presentan a manera de ejemplo tres portafolios de servicios de salud:
+        p Como se ha indicado en los ejemplos, existen varios niveles de complejidad, que, de acuerdo con la <strong>Resolución 3100 de 2019,</strong> en su anexo técnico, numeral 1.4, se indica que la complejidad es una “… cualidad de los servicios de salud que depende de las condiciones de salud que se atiendan o prevén atender, la formación del talento humano en salud y las características de las tecnologías en salud que se requieran”.
 
         .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
           .row.justify-content-center.align-items-center 
@@ -318,7 +317,7 @@
         p Se entiende por aseguramiento en salud, la administración del riesgo financiero, la gestión del riesgo en salud, la articulación de los servicios que garantice el acceso efectivo, la garantía de la calidad en la prestación de los servicios de salud y la representación del afiliado ante el prestador y las demás personas involucradas. 
         p Este aseguramiento se relaciona con los tipos de regímenes utilizados en la afiliación, entendiendo por afiliación como el acto de ingreso al Sistema General de Seguridad Social en Salud, a través del formulario único o del Sistema Transaccional de Afiliación cuando sea implementado y afiliado, es la calidad que adquiere la persona una vez ha realizado afiliación.
 
-    p.mb-5 En relación con el Sistema General de Seguridad Social en Salud - SGSSS, se hacen algunas precisiones, las cuales se describen en el siguiente esquema.
+    p.mb-5 En relación con el Sistema General de Seguridad Social en Salud - SGSSS, se hacen algunas precisiones, las cuales se describen en el siguiente esquema:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
@@ -340,7 +339,7 @@
       .row
         .col-md-6.mb-4.mb-md-0
           h3 Régimen contributivo
-          p Las personas afiliadas están obligadas a cotizar tanto al régimen de pensiones (sobre el salario o ingresos por prestación de servicios), como a una EPS para , para garantizar la atención en salud a través de las IPS. 
+          p Las personas afiliadas están obligadas a cotizar tanto al régimen de pensiones (sobre el salario o ingresos por prestación de servicios), como a una EPS para garantizar la atención en salud a través de las IPS. 
 
         .col-md-6
           figure

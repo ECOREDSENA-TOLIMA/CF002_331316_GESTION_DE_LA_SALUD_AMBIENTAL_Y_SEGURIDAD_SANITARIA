@@ -176,14 +176,6 @@ export default {
     {
       tema: '1.1 Portafolio de servicios',
       referencia:
-        'Ministerio de Salud y Protección Social. (s.f.). Guía metodológica programas territoriales de reorganización, rediseño y modernización de las redes de ESE. Ministerio de Salud y Protección Social.',
-      tipo: 'Documento técnico',
-      link:
-        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PSA/metodologia-ptrrm-version-300621.pdf',
-    },
-    {
-      tema: '1.1 Portafolio de servicios',
-      referencia:
         'Ministerio de Salud y Protección Social. (2016). Decreto 780 de 2016.',
       tipo: 'Documento legal',
       link:
@@ -384,7 +376,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Luz Adriana Cárdenas González',
+          nombre: 'Jackeline Molina Villanueva',
           cargo: 'Experta Temática',
           centro: 'Regional Antioquia - Centro de Servicios de Salud',
         },
@@ -395,8 +387,8 @@ export default {
             'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesora Metodológica',
+          nombre: 'Andrés Felipe Velandia Espitia  ',
+          cargo: 'Asesora Metodológico',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
@@ -406,8 +398,8 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Julia Isabel Roberto',
-          cargo: 'Correctora de Estilo',
+          nombre: 'José Gabriel Ortiz Abella ',
+          cargo: 'Corrector de Estilo',
           centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
         },
         {
@@ -421,7 +413,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Oscar Iván Uribe Ortiz',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
