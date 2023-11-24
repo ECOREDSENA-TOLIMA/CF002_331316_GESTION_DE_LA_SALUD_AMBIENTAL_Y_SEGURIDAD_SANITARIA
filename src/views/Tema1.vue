@@ -65,7 +65,7 @@
           span Enlace web
           i.fas.fa-file-code 
      
-    p.mb-5 Es importante recalcar que en el marco del Sistema Obligatorio de Garantía de Calidad de Atención en Salud (SOGCS), los cuatro componentes que le conforman, también incluyen instrumentos de gestión que apoyan la organización del servicio prestado incluida, la reglamentación institucional; esos cuatro componentes se describen a continuación:
+    p.mb-5 Es importante recalcar que en el marco del Sistema Obligatorio de Garantía de Calidad de Atención en Salud (SOGCS), los cuatro componentes que le conforman, también incluyen instrumentos de gestión que apoyan la organización del servicio prestado, incluida la reglamentación institucional; esos cuatro componentes se describen a continuación:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-8(data-aos="fade-down-right")
@@ -81,7 +81,7 @@
             p Cumple con acciones de inspección, vigilancia y control del contenido, calidad y reporte de la información, estará a cargo de las direcciones departamentales y distritales y de la Superintendencia Nacional de Salud en lo de sus competencias.
 
           .tarjeta.color-acento-botones.p-3(x="50%" y="78%" numero="+")
-            p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamenta su operación el MinSalud e Icontec realiza la acreditación. 
+            p Es un proceso voluntario, queda a decisión de las instituciones prestadoras de servicios de salud, las EAPB y las direcciones de salud departamentales, distritales y municipales, acogerse a este proceso. Reglamenta su operación el MinSalud e ICONTEC realiza la acreditación. 
             
           .tarjeta.color-acento-botones.p-3(x="76%" y="43%" numero="+")
             p Aquí se encuentra la Lista de chequeo, que es utilizada por los prestadores de los servicios de salud para efectuar de manera continua la evaluación, con el fin de mejorar la calidad de los servicios que prestan.
